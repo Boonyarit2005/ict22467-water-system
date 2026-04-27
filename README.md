@@ -55,5 +55,23 @@
 
 ---
 
+## 🚀 ขั้นตอนการติดตั้ง (Installation Guide)
+
+โปรเจกต์นี้รองรับการรันผ่าน **Docker** เพื่อความสะดวกรวดเร็วในการตั้งค่า Environment ทั้ง Node-RED และ MariaDB
+
+###สิ่งที่ต้องเตรียม
+* ติดตั้ง [Docker Desktop](https://www.docker.com/products/docker-desktop/) ลงในเครื่อง
+
+### ขั้นตอนการ Setup
+1. **เตรียมไฟล์:**
+   * ทำการดาวน์โหลดไฟล์ `iot-stack` และแตกไฟล์ (Extract) ลงในโฟลเดอร์ที่ต้องการ
+
+2. **เปิด Terminal / Command Prompt:**
+   * ใช้คำสั่ง `cd` เพื่อเข้าไปยังโฟลเดอร์ที่แตกไฟล์ไว้ (iot-stack)
+     cd iot-stack
+   
+3. **รันระบบด้วย Docker Compose
+4. *docker-compose up -d
+
 ---
 ⭐ *หากโปรเจกต์นี้มีประโยชน์ อย่าลืมกด Star เพื่อเป็นกำลังใจให้พวกเราด้วยนะครับ!*
