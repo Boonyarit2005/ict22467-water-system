@@ -50,15 +50,16 @@
 
 1.  **เตรียมไฟล์:** ดาวน์โหลดและแตกไฟล์ `iot-stack` ลงในโฟลเดอร์ที่ต้องการ
 3.  **เปิด Command Prompt / Terminal:** เข้าไปยังโฟลเดอร์ที่แตกไฟล์ไว้
-4.  **สั่งรันระบบ:** ใช้คำสั่ง Docker Compose เพื่อสร้าง Container
+4.  ใช้คำสั่ง cd โฟลเดอร์ iot-stack
+5.  **สั่งรันระบบ:** ใช้คำสั่ง Docker Compose เพื่อสร้าง Container
     ```bash
     docker compose up -d
     ```
-5.  **เข้าใช้งาน:**
+6.  **เข้าใช้งาน:**
     * **Dashboard:** `http://localhost:1880/login`
     * **Node-RED Editor:** `http://localhost:1880`
     * **Database:** MariaDB `http://localhost:8080`
-    * **MariaDB user root password 1234
+    * MariaDB user root password 1234
 
 ---
 
